@@ -22,8 +22,8 @@ $base-fg: #000
 //
 // rules
 //
-base-bg: $white
-base-fg: $black
+base-bg: $base-bg
+base-fg: $base-fg
 base-icon: $icon_blue,65%
 base-icon-hover: $icon_blue
 gray-icon: #828a99,70%
