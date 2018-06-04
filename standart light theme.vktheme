@@ -157,6 +157,7 @@ dialogitem-selected-name-fg: $white
   dialogitem-selected-date-fg: $white,70%
 #endif
 dialogitem-message-out-fg: #42648b
+dialogitem-message-out-hover-fg: #42648b
 dialogitem-selected-message-out-fg: $white,70%
 #if MACOS
   dialogitem-badge-bg: $selected_blue
