@@ -2172,6 +2172,10 @@ body.-large_font .im_dialog_item_message {
     color: var(--dialogitem-message-out-fg)
 }
 
+.im_dialog_item:hover .im_dialog_item_message_out {
+    color: var(--dialogitem-message-out-hover-fg)
+}
+
 .im_dialog_item.-selected .im_dialog_item_message_out {
     color: var(--dialogitem-selected-message-out-fg)
 }
