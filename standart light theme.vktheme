@@ -138,22 +138,28 @@ dialogitem-bg: $white
   dialogitem-hover-bg: $hover_light_blue
   dialogitem-selected-bg: $selected_blue
   dialogitem-name-fg: #222
+  dialogitem-name-hover-fg: #222
 #else
   dialogitem-hover-bg: #f2f4f8
   dialogitem-selected-bg: #6a87a8
   dialogitem-name-fg: $black
+  dialogitem-name-hover-fg: $black
 #endif
 dialogitem-online-bg: #71cb50
 dialogitem-selected-name-fg: $white
 #if MACOS
   dialogitem-message-fg: #828282
+  dialogitem-message-hover-fg: #828282
   dialogitem-selected-message-fg: #dfe6ed
   dialogitem-date-fg: $light_gray
+  dialogitem-date-hover-fg: $light_gray
   dialogitem-selected-date-fg: #c7d4e0
 #else
   dialogitem-message-fg: #6c737a
+  dialogitem-message-hover-fg: #6c737a
   dialogitem-selected-message-fg: #dce3eb
   dialogitem-date-fg: #6c737a
+  dialogitem-date-hover-fg: #6c737a
   dialogitem-selected-date-fg: $white,70%
 #endif
 dialogitem-message-out-fg: #42648b
