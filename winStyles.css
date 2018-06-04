@@ -2027,6 +2027,10 @@ body.-large_font .dialogs_unread_panel {
     width: 100%
 }
 
+.im_dialog_item:hover .im_dialog_item_name {
+    color: var(--dialogitem-name-hover-fg)
+}
+
 .im_dialog_item.-selected .im_dialog_item_name {
     color: var(--dialogitem-selected-name-fg)
 }
@@ -2160,6 +2164,10 @@ body.-large_font .im_dialog_item_message {
     padding-top: 2px
 }
 
+.im_dialog_item:hover .im_dialog_item_message {
+    color: var(--dialogitem-message-hover-fg)
+}
+
 .im_dialog_item.-selected .im_dialog_item_message {
     color: var(--dialogitem-selected-message-fg)
 }
@@ -2266,6 +2274,11 @@ body.-large_font .im_dialog_item_date {
 .im_dialog_item:not(.-no_delete):hover .im_dialog_item_date {
     visibility: hidden
 }
+
+.im_dialog_item:hover .im_dialog_item_date {
+    color: var(--dialogitem-date-hover-fg)
+}
+
 
 .im_dialog_item.-selected .im_dialog_item_date {
     color: var(--dialogitem-selected-date-fg)
