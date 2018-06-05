@@ -3773,6 +3773,7 @@ body.-large_font .im_info_add_participant_filter input[type=text] {
     overflow: hidden;
     border-radius: 3px;
     border: 1px solid var(--dialog-input-ta-border);
+    color: var(--dialog-input-ta-fg);
     background: var(--dialog-input-ta-bg);
     margin: 10px 0;
     display: flex;
