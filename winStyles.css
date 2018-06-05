@@ -11549,10 +11549,6 @@ body.-large_font textarea.settings_line_edit_input {
     margin-right: 8px
 }
 
-.settings_line_edit_button_wrap>.im_button_light:hover:not(:active) {
-    background-color: var(--settings-buttonlight-hover-bg)
-}
-
 .settings_line_edit_password:not(:last-child) {
     padding-bottom: 8px
 }
