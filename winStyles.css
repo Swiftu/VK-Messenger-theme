@@ -2207,13 +2207,26 @@ body.-large_font .im_dialog_item_message {
     margin-left: 5px
 }
 
-.im_dialog_item.-muted .im_dialog_item_badge {
-    background-color: var(--dialogitem-muted-badge-bg)
+.im_dialog_item:hover .im_dialog_item_badge {
+    color: var(--dialogitem-badge-hover-fg);
+    background-color: var(--dialogitem-badge-hover-bg)
 }
 
 .im_dialog_item.-selected .im_dialog_item_badge {
     color: var(--dialogitem-selected-badge-fg);
     background-color: var(--dialogitem-selected-badge-bg)
+}
+
+.im_dialog_item.-muted .im_dialog_item_badge {
+    background-color: var(--dialogitem-muted-badge-bg)
+}
+
+.im_dialog_item.-muted:hover .im_dialog_item_badge {
+    background-color: var(--dialogitem-muted-badge-hover-bg)
+}
+
+.im_dialog_item.-muted.-selected .im_dialog_item_badge {
+    background-color: var(--dialogitem-selected-muted-badge-bg)
 }
 
 .im_dialog_item_badge_out {
