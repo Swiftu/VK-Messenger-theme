@@ -367,10 +367,12 @@ body.-win7 .im_button_light {
 }
 
 .im_button_light:hover {
+    color: var(--buttonlight-hover-fg);
     background-color: var(--buttonlight-hover-bg)
 }
 
 .im_button_light:active {
+    color: var(--buttonlight-active-fg)
     background-color: var(--buttonlight-active-bg)
 }
 
