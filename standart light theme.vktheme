@@ -304,6 +304,7 @@ dialog-input-bg: #f6f7fa
 dialog-input-ta-bg: #fff
 dialog-input-ta-border: #dadde1
 dialog-input-ta-empty-fg: #A9ABAD
+dialog-input-ta-fg: $black
 #if MACOS
   dialog-input-send-icon-fg: $white
   dialog-input-send-icon-bg: #748FB8
