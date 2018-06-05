@@ -548,6 +548,8 @@ compose-chat-line-input-placeholder-fg: #a4a6a8
 compose-user-line-image-change-bg: $black,50%
 compose-filter-user-hover-bg: #f5f6f7
 compose-filter-user-name-fg: $black
+compose-filter-user-status-fg: $light_gray
+compose-filter-user-status-online-fg: $link_fg
 #if WINDOWS|LINUX
   compose-tag-bg: #e5ebf1
   compose-tag-fg: #406081
