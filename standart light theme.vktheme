@@ -80,7 +80,9 @@ button-spinner-fg: $white
 #if LINUX
   buttonlight-fg: $link_dark_blue
   buttonlight-bg: transparent
+  buttonlight-hover-fg: $link_dark_blue
   buttonlight-hover-bg: #e9eef3
+  buttonlight-active-fg: $link_dark_blue
   buttonlight-active-bg: #d8e1eb
   buttonwide-fg: $white
   buttonwide-bg: $button_blue
@@ -89,7 +91,9 @@ button-spinner-fg: $white
 #elif WINDOWS
   buttonlight-fg: #4774a8
   buttonlight-bg: #e6ebf0
+  buttonlight-hover-fg: #4774a8
   buttonlight-hover-bg: #dbe3eb
+  buttonlight-active-fg: #4774a8
   buttonlight-active-bg: #d3dce6
   buttonwide-fg: $white
   buttonwide-bg: #5181B8
@@ -98,7 +102,9 @@ button-spinner-fg: $white
 #elif MACOS
   buttonlight-fg: $link_dark_blue
   buttonlight-bg: transparent
+  buttonlight-hover-fg:$link_dark_blue
   buttonlight-hover-bg: #e9eef3
+  buttonlight-active-fg: #d8e1eb
   buttonlight-active-bg: #d8e1eb
   buttonwide-fg: $white
   buttonwide-bg: $button_blue
