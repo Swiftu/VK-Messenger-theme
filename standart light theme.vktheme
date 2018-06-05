@@ -679,7 +679,6 @@ settings-line-link-red-fg: #ff3a30
 settings-line-toggle-label-fg: #666
 settings-secondlevel-line-border: #d8d8d8
 settings-notifications-community-badge-fg: #666
-settings-buttonlight-hover-bg: #e1e7ed
 settings-block-items-bg: $base-bg
 settings-block-title-fg: #7e8081
 settings-scale-fg: #6387ac
