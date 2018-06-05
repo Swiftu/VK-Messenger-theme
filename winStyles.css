@@ -7256,8 +7256,7 @@ body.-large_font .im_messages_load_error_retry {
 
 .im_popover_bg {
     border: 1px solid var(--popover-border);
-    background: var(--popover-bg);
-    background: var(--base-bg)
+    background: var(--popover-bg)
 }
 
 .im_popover_transition-enter {
@@ -8471,7 +8470,7 @@ body.-large_font .compose_filter_user_name {
 }
 
 .compose_filter_user_status {
-    color: var(--gray-fg);
+    color: var(--compose-filter-user-status-fg);
     max-width: 15pc;
     overflow: hidden;
     white-space: nowrap;
@@ -8479,7 +8478,7 @@ body.-large_font .compose_filter_user_name {
 }
 
 .compose_filter_user_status.-online {
-    color: var(--link-fg)
+    color: var(--compose-filter-user-status-online-fg)
 }
 
 .compose_filter_no_members {
