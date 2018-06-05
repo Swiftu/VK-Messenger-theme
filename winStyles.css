@@ -353,7 +353,7 @@ body.-win7 .im_button {
     line-height: 28px;
     padding: 0 9pt;
     font-size: 14px;
-    color: var(--link-darker-fg);
+    color: var(--buttonlight-fg);
     background-color: var(--buttonlight-bg);
     white-space: nowrap;
     text-overflow: ellipsis;
