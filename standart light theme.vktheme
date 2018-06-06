@@ -80,9 +80,9 @@ button-spinner-fg: $white
 #if LINUX
   buttonlight-fg: $link_dark_blue
   buttonlight-bg: transparent
-  buttonlight-hover-fg: $link_dark_blue
+  buttonlight-hover-fg: $link_dark_blue // добавлено
   buttonlight-hover-bg: #e9eef3
-  buttonlight-active-fg: $link_dark_blue
+  buttonlight-active-fg: $link_dark_blue // добавлено
   buttonlight-active-bg: #d8e1eb
   buttonwide-fg: $white
   buttonwide-bg: $button_blue
@@ -91,9 +91,9 @@ button-spinner-fg: $white
 #elif WINDOWS
   buttonlight-fg: #4774a8
   buttonlight-bg: #e6ebf0
-  buttonlight-hover-fg: #4774a8
+  buttonlight-hover-fg: #4774a8 // добавлено
   buttonlight-hover-bg: #dbe3eb
-  buttonlight-active-fg: #4774a8
+  buttonlight-active-fg: #4774a8 // добавлено
   buttonlight-active-bg: #d3dce6
   buttonwide-fg: $white
   buttonwide-bg: #5181B8
@@ -102,9 +102,9 @@ button-spinner-fg: $white
 #elif MACOS
   buttonlight-fg: $link_dark_blue
   buttonlight-bg: transparent
-  buttonlight-hover-fg:$link_dark_blue
+  buttonlight-hover-fg:$link_dark_blue // добавлено
   buttonlight-hover-bg: #e9eef3
-  buttonlight-active-fg: #d8e1eb
+  buttonlight-active-fg: #d8e1eb // добавлено
   buttonlight-active-bg: #d8e1eb
   buttonwide-fg: $white
   buttonwide-bg: $button_blue
@@ -144,38 +144,38 @@ dialogitem-bg: $white
   dialogitem-hover-bg: $hover_light_blue
   dialogitem-selected-bg: $selected_blue
   dialogitem-name-fg: #222
-  dialogitem-name-hover-fg: #222
+  dialogitem-name-hover-fg: #222 // добавлено
 #else
   dialogitem-hover-bg: #f2f4f8
   dialogitem-selected-bg: #6a87a8
   dialogitem-name-fg: $black
-  dialogitem-name-hover-fg: $black
+  dialogitem-name-hover-fg: $black // добавлено
 #endif
 dialogitem-online-bg: #71cb50
 dialogitem-selected-name-fg: $white
 #if MACOS
   dialogitem-message-fg: #828282
-  dialogitem-message-hover-fg: #828282
+  dialogitem-message-hover-fg: #828282 // добавлено
   dialogitem-selected-message-fg: #dfe6ed
   dialogitem-date-fg: $light_gray
-  dialogitem-date-hover-fg: $light_gray
+  dialogitem-date-hover-fg: $light_gray // добавлено, но не понятно зачем, ибо кнопка "удалить диалог" перекрывает дату
   dialogitem-selected-date-fg: #c7d4e0
 #else
   dialogitem-message-fg: #6c737a
-  dialogitem-message-hover-fg: #6c737a
+  dialogitem-message-hover-fg: #6c737a // добавлено
   dialogitem-selected-message-fg: #dce3eb
   dialogitem-date-fg: #6c737a
-  dialogitem-date-hover-fg: #6c737a
+  dialogitem-date-hover-fg: #6c737a // добавлено, но не понятно зачем, ибо кнопка "удалить диалог" перекрывает дату
   dialogitem-selected-date-fg: $white,70%
 #endif
 dialogitem-message-out-fg: #42648b
-dialogitem-message-out-hover-fg: #42648b
+dialogitem-message-out-hover-fg: #42648b // добавлено
 dialogitem-selected-message-out-fg: $white,70%
 #if MACOS
   dialogitem-badge-bg: $selected_blue
   dialogitem-badge-fg: $white
-  dialogitem-badge-hover-bg: $selected_blue
-  dialogitem-badge-hover-fg: $white
+  dialogitem-badge-hover-bg: $selected_blue // добавлено
+  dialogitem-badge-hover-fg: $white // добавлено
   dialogitem-selected-badge-bg: $white
   dialogitem-selected-badge-fg: $selected_blue
   dialogitem-outbadge-bg: #6F8FB0
@@ -191,8 +191,8 @@ dialogitem-selected-message-out-fg: $white,70%
   dialogitem-outbadge-fg: $white
 #endif
 dialogitem-muted-badge-bg: #bbc2c9
-dialogitem-muted-badge-hover-bg: #bbc2c9
-dialogitem-selected-muted-badge-bg: #bbc2c9
+dialogitem-muted-badge-hover-bg: #bbc2c9 // добавлено
+dialogitem-selected-muted-badge-bg: #bbc2c9 // добавлено
 dialogitem-selected-verified-icon: $white,80%
 #if MACOS
   dialogitem-muted-icon: #b3b5b7,85%
@@ -212,11 +212,11 @@ dialogitem-selected-initialsavatar-bg: $white,60%
 dialogitem-selected-initialsavatar-fg: $selected_blue
 
 #if WINDOWS|LINUX
-  header-bg: $base-bg
+  header-bg: $base-bg // добавлено
   header-border: #e1e3e6
   header-title: $black
 #else
-  header-bg: $base-bg
+  header-bg: $base-bg // добавлено
   header-border: #e1e5e9
   header-title: #222
 #endif
@@ -244,33 +244,33 @@ header-4state-active-icon-hover: $icon_blue
   right-big-text-fg: #94a3b1 // forward, dnd
 #endif
 
-left-empty-bg: $base-bg
+left-empty-bg: $base-bg // добавлено
 left-empty-text-fg: #768695
 right-empty-vk-icon: #e9ecef
 
-left-unread-panel-bg: $base-bg
-left-unread-panel-fg: $base-fg
+left-unread-panel-bg: $base-bg // добавлено
+left-unread-panel-fg: $base-fg // добавлено
 
-info-bg: $base-bg
-info-name-fg: $base-fg
-info-not-phone-fg: $base-fg
+info-bg: $base-bg // добавлено
+info-name-fg: $base-fg // добавлено
+info-not-phone-fg: $base-fg // добавлено
 
 #if WINDOWS|LINUX
-  info-list-item-fg: #42648b
+  info-list-item-fg: #42648b // добавлено
 #else
-  info-list-item-fg: #547CA7
+  info-list-item-fg: #547CA7 // добавлено
 #endif
 
 #if WINDOWS|LINUX
-  info-buttonwide-fg: #42648b
+  info-buttonwide-fg: #42648b // добавлено
 #else
-  info-buttonwide-fg: #547CA7
+  info-buttonwide-fg: #547CA7 // добавлено
 #endif
 
 #if WINDOWS|LINUX
-  info-members-title-toggle-fg: #42648b
+  info-members-title-toggle-fg: #42648b // добавлено
 #else
-  info-members-title-toggle-fg: #547CA7
+  info-members-title-toggle-fg: #547CA7 // добавлено
 #endif
 
 info-icon: #95a8c4
@@ -310,7 +310,7 @@ dialog-input-bg: #f6f7fa
 dialog-input-ta-bg: #fff
 dialog-input-ta-border: #dadde1
 dialog-input-ta-empty-fg: #A9ABAD
-dialog-input-ta-fg: $black
+dialog-input-ta-fg: $black // добавлено
 #if MACOS
   dialog-input-send-icon-fg: $white
   dialog-input-send-icon-bg: #748FB8
@@ -380,10 +380,9 @@ dialog-history-end-button-badge-fg: $white
 dialog-history-end-button-icon: $icon_blue,70%
 dialog-history-end-button-icon-hover: $icon_blue
 
-dialog-pinned-bg: $base-bg
+dialog-pinned-bg: $base-bg // добавлено
 dialog-pinned-shadow: $black,12%
 dialog-pinned-icon: #a8adb6
-
 
 dialog-search-message-arrow-icon: #c3c4c5
 dialog-message-unread-bg: #edf0f5
@@ -561,8 +560,8 @@ compose-chat-line-input-placeholder-fg: #a4a6a8
 compose-user-line-image-change-bg: $black,50%
 compose-filter-user-hover-bg: #f5f6f7
 compose-filter-user-name-fg: $black
-compose-filter-user-status-fg: $light_gray
-compose-filter-user-status-online-fg: $link_fg
+compose-filter-user-status-fg: $light_gray // добавлено
+compose-filter-user-status-online-fg: $link_fg // добавлено
 #if WINDOWS|LINUX
   compose-tag-bg: #e5ebf1
   compose-tag-fg: #406081
@@ -686,7 +685,7 @@ settings-line-link-red-fg: #ff3a30
 settings-line-toggle-label-fg: #666
 settings-secondlevel-line-border: #d8d8d8
 settings-notifications-community-badge-fg: #666
-settings-block-items-bg: $base-bg
+settings-block-items-bg: $base-bg // добавлено
 settings-block-title-fg: #7e8081
 settings-scale-fg: #6387ac
 settings-scale-bg: #eaeaea
